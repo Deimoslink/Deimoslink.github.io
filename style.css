@@ -8,8 +8,7 @@ footer div.container {
 }
 
 footer p {
-	margin-top:20px;
-	margin-bottom:20px;
+	margin:20px 0;
 }
 
 .navbar-header {
@@ -48,8 +47,8 @@ h2.border {
 
 .panel-heading-symbol {
 	float:right;
-	font-size:18px;
 	padding:0px;
+	font-size:18px;
 }
 
 .dashboard-list li {
@@ -61,8 +60,8 @@ h2.border {
 .dashboard-btn-group button {
 	float:left;
 	width:25%;
+	padding:10px 0;
 	text-align:center;
-	padding:10px 0 10px;
 }
 
 .dashboard-btn-group p {
@@ -70,16 +69,16 @@ h2.border {
 }
 
 .engagement-list {
-	list-style:none;
-	text-align:center;
 	padding:0;
 	margin:0;
+	list-style:none;
+	text-align:center;
 }
 
 .engagement-list li {
-	list-style:none;
 	display:inline-block;
-	padding:0 15px 0;
+	padding:0 15px;
+	list-style:none;
 }
 
 .engagement-list li:first-child {
@@ -93,8 +92,8 @@ h2.border {
 .engagement-list li div {
 	height:80px;
 	width:80px;
-	background-color:#f1f1f1;
 	border-radius:50%;
+	background-color:#f1f1f1;
 	text-align:center;
 }
 
@@ -109,13 +108,13 @@ h2.border {
 }
 
 .badge-notify {
-	padding:2px;
-	background:red;
 	position:relative;
-	width:12px;
-	height:12px;
 	top:-10px;
 	left:-5px;
+	width:12px;
+	height:12px;
+	padding:2px;
+	background:red;
 	font-size:8px;
 }
 
@@ -135,29 +134,25 @@ h2.border {
 	}
 }
 
-.h3-reports {
+.custom-heading-reports {
+	padding: 15px 0;
 	border-bottom:1px solid #dcdcdc;
 	border-top:1px solid #dcdcdc;
-	padding: 15px 0 15px;
 	font-size:16px;
 	font-weight:600;
 }
 
 /*Костыль для линии под заголовком Dashboard*/
 
-#dashboard-small {
+.custom-heading-dashboard-small {
 	display:none;
 }
 
 @media (max-width:768px) {
-	#dashboard-small {
+	.custom-heading-dashboard-small {
 		display:block;
 	}
-	#dashboard-wide {
+	.custom-heading-dashboard-wide {
 		display:none;
 	}
-}
-
-.mobile-fix span {
-	padding-right: 20px;
 }
