@@ -1,0 +1,158 @@
+footer {
+	margin-top:20px;
+	background-color:#f5f5f5;
+}
+
+footer div.container {
+	text-align:center;
+}
+
+footer p {
+	margin:20px 0;
+}
+
+.navbar-header {
+	float:left;
+}
+
+.navbar-right {
+	float: right;
+}
+
+h2 {
+	margin-bottom:20px
+}
+
+h2 span {
+	font-size:20px;
+}
+
+.border {
+	border-bottom:1px solid #dcdcdc;
+}
+
+h2.border {
+	padding-bottom:10px;
+}
+
+.line {
+	width:100%;
+	margin:20px 0;	
+}
+
+.dashboard-list, .dashboard-btn-group {
+	display:inline-block;
+	width:100%;
+}
+
+.panel-heading-symbol {
+	float:right;
+	padding:0px;
+	font-size:18px;
+}
+
+.dashboard-list li {
+	float:left;
+	width:20%;
+	text-align:center;
+} 
+
+.dashboard-btn-group button {
+	float:left;
+	width:25%;
+	padding:10px 0;
+	text-align:center;
+}
+
+.dashboard-btn-group p {
+	margin:0;
+}
+
+.engagement-list {
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+
+.engagement-list li {
+	display:inline-block;
+	padding:0 15px;
+	list-style:none;
+}
+
+.engagement-list li:first-child {
+	padding-left:0;
+}
+
+.engagement-list li:last-child {
+	padding-right:0;
+}
+
+.engagement-list li div {
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	background-color:#f1f1f1;
+	text-align:center;
+}
+
+.engagement-list li div:hover {
+	background-color:#c5c5c5;
+	color:#fff;
+}
+
+.engagement-list li div p {
+	vertical-align:middle;
+	line-height:80px;
+}
+
+.badge-notify {
+	position:relative;
+	top:-10px;
+	left:-5px;
+	width:12px;
+	height:12px;
+	padding:2px;
+	background:red;
+	font-size:8px;
+}
+
+/*Небольшой костыль для плывущего уведомления*/
+
+@media (max-width:1199px) {
+	.badge-notify {
+		top:-30px;
+		left:10px;
+	}
+}
+
+@media (max-width:991px) {
+	.badge-notify {
+		top:-10px;
+		left:-5px;
+	}
+}
+
+.custom-heading-reports {
+	padding: 15px 0;
+	border-bottom:1px solid #dcdcdc;
+	border-top:1px solid #dcdcdc;
+	font-size:16px;
+	font-weight:600;
+}
+
+/*Костыль для линии под заголовком Dashboard*/
+
+.custom-heading-dashboard-small {
+	display:none;
+}
+
+@media (max-width:768px) {
+	.custom-heading-dashboard-small {
+		display:block;
+	}
+	.custom-heading-dashboard-wide {
+		display:none;
+	}
+}
